@@ -58,16 +58,22 @@ git commit -m "Initial commit: Glücksplatz demo site"
 
 ### 1. Repository auf GitHub anlegen
 
-Repository-Name:
+Lokaler Projektordner:
 
 ```text
 Glücksplatz-demo
 ```
 
+GitHub-Repository:
+
+```text
+Gl-cksplatz-demo
+```
+
 ### 2. Remote setzen und Code pushen
 
 ```bash
-git remote add origin https://github.com/DEIN-USERNAME/Glücksplatz-demo.git
+git remote add origin https://github.com/DEIN-USERNAME/Gl-cksplatz-demo.git
 git branch -M main
 git push -u origin main
 ```
@@ -83,10 +89,10 @@ git push -u origin main
 
 ### 4. Veröffentlichung prüfen
 
-GitHub Pages veröffentlicht die Seite danach unter der Projekt-URL. Da der Repository-Name ein `ü` enthält, wird die URL im Browser normalerweise URL-kodiert dargestellt:
+GitHub Pages veröffentlicht die Seite danach unter der Projekt-URL. GitHub hat den Repository-Slug beim Anlegen automatisch auf ASCII normalisiert:
 
 ```text
-https://DEIN-USERNAME.github.io/Gl%C3%BCcksplatz-demo/
+https://DEIN-USERNAME.github.io/Gl-cksplatz-demo/
 ```
 
 ### 5. Weitere Änderungen deployen
